@@ -7,6 +7,12 @@ analyze a video file frame by frame and get the average brightness of
 each frame, as well as a standardized measure of absolute difference
 between each two frames, then print it out to a .csv file.
 
+	I initially designed this to analyze films and try to discover
+a trend over time of films getting more visually intense. However, it
+has a number of possible uses, including quickly analyzing videos in 
+order to find sections that may trigger epilepsy or other types of 
+sensitivity to visual stimuli.
+
 	In order for the program to work properly, the OpenCV3xx.jar 
 file in the Dependencies folder needs to be in the Classpath, with the
 native library location for that Jar file set to Dependencies/x64 
